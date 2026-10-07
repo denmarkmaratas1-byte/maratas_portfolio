@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="Practice.css">
+</head>
+<body>
+
+<header>
+    <h1>Registration Form</h1>
+    <p>Welcome to Registration Form</p>
+</header>
+
+<nav>
+        <a href="Activity.html">Home</a>
+        <a href="Practice.html">Registration</a>
+        <a href="actpart2.html">Grade</a>
+        <a href="profile.html">Profile</a>
+</nav>
+
+<div >
+Student Name:  <input type="text" name="Student_Name" />
+<br>
+Email:  <input type="text" name="Email" />
+<br>
+Password:  <input type="text" name="Password" />
+
+<p>Gender</p>
+<input type="radio" name="Gender" value="maths"> Male
+<input type="radio" name="Gender" value="physics"> Female
+
+
+
+<br>
+
+<p>Course</p>
+<select name="dropdown">
+<option value="BSIT" selected>BSIT</option>
+<option value="BSCS">BSCS</option>
+</select>
+
+
+<br>
+
+
+    <p>Profile Picture</p>
+<input type="file" name="fileupload" accept="image/*" />
+
+<br>
+
+
+
+
+<br>
+
+Address: <br />
+<textarea rows="5" cols="50" name="description" placeholder=” Enter description here...”></textarea>
+
+<br>
+
+<input type="submit" name="submit" value="Submit"/>
+<input type="reset" name="reset"  value="Reset" />
+
+</div>
+
+
+
+</body>
+</html>

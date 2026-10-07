@@ -1,0 +1,50 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f5f2e9;
+}
+
+div {
+    width: 700px;
+    margin: 30px auto;
+    background: white;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    box-shadow: 0 0 5px;
+}
+
+header {
+    background-color: #20c4d4;
+    text-align: center;
+    padding: 30px;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 40px;
+}
+
+header p {
+    margin: 5px;
+    font-size: 18px;
+}
+
+nav {
+    background-color: #e8b5c4;
+    text-align: center;
+    padding: 18px;
+}
+
+nav a {
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 20px;
+    margin: 0 30px;
+}
+
+nav a :hover {
+    color: white;
+}
+
